@@ -5,7 +5,6 @@ import 'package:network_connectivity/Todo/screens/home.dart';
 import 'package:network_connectivity/provider/fav_home.dart';
 import 'package:network_connectivity/vibration/vibration.dart';
 import 'BottomNavBar/bottombar.dart';
-import 'Google_Map/map.dart';
 import 'OTP_Verification/otp_screen.dart';
 import 'Screen/download.dart';
 import 'Screen/pageview with dot indicator.dart';
@@ -182,7 +181,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           ElevatedButton(
               onPressed: () {
-                Get.to(() => LocationDemo());
+                // Get.to(() => LocationDemo());
               },
               child: Text("Map")),
           const SizedBox(
@@ -190,7 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           ElevatedButton(
               onPressed: () {
-                Get.to(() => SendOTPScreen());
+                Get.to(() => OtpScreen());
               },
               child: Text("OTP Verification")),
           const SizedBox(

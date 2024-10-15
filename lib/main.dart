@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'Language/app_const_language.dart';
 import 'Language/langauge_controller.dart';
 import 'Language/message.dart';
+import 'OTP_Verification/otp_screen.dart';
 import 'Video_Call/call_home.dart';
 
 void main() async {
